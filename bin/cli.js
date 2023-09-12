@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { program } = require('commander');
-const { lint, format } = require('./your-accelerator-scripts');
+const { lint, format } = require('../accelerator-scripts');
 
 program
   .version('1.0.0')
